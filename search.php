@@ -165,7 +165,7 @@ class Search
             ->title('> changelog')
             ->subtitle('View the changelog')
             ->icon('file')
-            ->arg('https://github.com/gharlan/alfred-github-workflow/blob/master/CHANGELOG.md')
+            ->arg('https://github.com/yuqilin/alfred-github-workflow/blob/master/CHANGELOG.md')
             ->randomUid()
         , false);
     }
@@ -600,7 +600,7 @@ class Search
                 ->title('> '.$cmd)
                 ->subtitle('View the '.$file)
                 ->icon('file')
-                ->arg('https://github.com/gharlan/alfred-github-workflow/blob/master/'.strtoupper($file).'.md')
+                ->arg('https://github.com/yuqilin/alfred-github-workflow/blob/master/'.strtoupper($file).'.md')
             );
         }
     }

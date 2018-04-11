@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>de.gh01.alfred.github</string>
+	<string>com.github.yuqilin.alfred-github-workflow</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -601,6 +601,6 @@ Version 1.1 – 2015-01-10
 	<key>version</key>
 	<string>1.6.2</string>
 	<key>webaddress</key>
-	<string>https://github.com/gharlan/alfred-github-workflow</string>
+	<string>https://github.com/yuqilin/alfred-github-workflow</string>
 </dict>
 </plist>

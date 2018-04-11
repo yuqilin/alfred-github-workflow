@@ -15,7 +15,7 @@ require 'curl.php';
 class Workflow
 {
     const VERSION = '1.6.2';
-    const BUNDLE = 'de.gh01.alfred.github';
+    const BUNDLE = 'com.github.yuqilin.alfred-github-workflow';
     const DEFAULT_CACHE_MAX_AGE = 10;
 
     private static $filePids;
@@ -354,7 +354,7 @@ class Workflow
         if (!self::getConfig('autoupdate', 1)) {
             return false;
         }
-        $release = self::requestCache('https://api.github.com/repos/gharlan/alfred-github-workflow/releases/latest', null, null, true, 1440);
+        $release = self::requestCache('https://api.github.com/repos/yuqilin/alfred-github-workflow/releases/latest', null, null, true, 1440);
         if (!$release) {
             return false;
         }

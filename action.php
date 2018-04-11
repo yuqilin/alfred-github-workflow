@@ -89,7 +89,7 @@ switch ($parts[1]) {
         break;
 
     case 'update':
-        $release = json_decode(Workflow::request('https://api.github.com/repos/gharlan/alfred-github-workflow/releases/latest'));
+        $release = json_decode(Workflow::request('https://api.github.com/repos/yuqilin/alfred-github-workflow/releases/latest'));
         if (!isset($release->assets[0]->browser_download_url)) {
             echo 'Update failed';
             exit;
