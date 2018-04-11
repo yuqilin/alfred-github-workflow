@@ -14,7 +14,7 @@ require 'curl.php';
 
 class Workflow
 {
-    const VERSION = '1.6.2';
+    const VERSION = '1.6.3';
     const BUNDLE = 'com.github.yuqilin.alfred-github-workflow';
     const DEFAULT_CACHE_MAX_AGE = 10;
 

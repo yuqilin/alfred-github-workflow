@@ -134,7 +134,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Gregor Harlan</string>
+	<string>yuqilin</string>
 	<key>description</key>
 	<string>GitHub for Alfred</string>
 	<key>disabled</key>
@@ -404,6 +404,12 @@
 	<string>Changelog
 =========
 
+Version 1.6.3 – 2018-04-11
+--------------------------
+
+* change to my own page
+
+
 Version 1.6.2 – 2018-02-13
 --------------------------
 
@@ -599,7 +605,7 @@ Version 1.1 – 2015-01-10
 		<string>0</string>
 	</dict>
 	<key>version</key>
-	<string>1.6.2</string>
+	<string>1.6.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/yuqilin/alfred-github-workflow</string>
 </dict>
